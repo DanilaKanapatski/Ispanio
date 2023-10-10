@@ -1,0 +1,859 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;500;600;700&family=Black+Ops+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+        $(document).ready(function () {
+            PopUpHide();
+        });
+        function PopUpShow() {
+            $("#popup1").show();
+        }
+        function PopUpHide() {
+            $("#popup1").hide();
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            PopUpHide2();
+        });
+        function PopUpShow2() {
+            PopUpHide()
+            $("#popup2").show();
+        }
+        function PopUpHide2() {
+            $("#popup2").hide();
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <h1>Espanol <span>eXITOSO</span></h1>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a class="header__link" href="#head1">О курсе</a></li>
+                        <li><a class="header__link" href="#head2">Программа</a></li>
+                        <li><a class="header__link" href="#head3">Обучение</a></li>
+                        <li><a class="header__link" href="#head4">Стоимость и оплата</a></li>
+                        <li><a class="header__link" href="#head5">О школе</a></li>
+                    </ul>
+                    <div class="social_link1">
+                        <a href="https://t.me/espanolexitoso" class="r"><img src="icons/telegram.svg"
+                                alt="telegram"></a>
+                        <a href="https://www.instagram.com/espanolexitoso/
+                    " class="r"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="https://www.tiktok.com/@espanolexitoso"><img src="icons/tiktok.svg" alt="tiktok"></a>
+                    </div>
+                    <button class="btn mob"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+                </nav>
+                <button class="btn descc"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+                <div class="social_link">
+                    <a href="https://t.me/espanolexitoso"><img src="icons/telegram.svg" alt="telegram"></a>
+                    <a href="https://www.instagram.com/espanolexitoso/"><img src="icons/instagram.svg"
+                            alt="instagram"></a>
+                    <a href="https://www.tiktok.com/@espanolexitoso"><img src="icons/tiktok.svg" alt="tiktok"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="img_bg">
+        <div class="container">
+            <div class="img_bg-wrapper">
+                <h1 class="img_bg-title">Курс испанского языка
+                    для бизнеса</h1>
+                <p class="img_bg-desc">3 МЕСЯЦА ИНТЕНСИВА
+                    ВСЕГО ЗА 570 BYN!</p>
+                <!-- <img src="img/img_bg.jpg" alt="img_bg" class="desct">
+                <img src="img/2 (2).jpg" alt="img_bg" class="mob"> -->
+            </div>
+        </div>
+    </section>
+    <section class="icons">
+        <div class="container">
+            <div class="icons_wrapper">
+                <div class="icon_element">
+                    <img src="icons/icon_1.png" alt="icon_1">
+                    <p>Компактный по времени<br>курс: 3 месяца</p>
+                </div>
+                <div class="icon_element">
+                    <img src="icons/icon_2.png" alt="icon_2">
+                    <p>Небольшие группы<br>по 6 человек</p>
+                </div>
+                <div class="icon_element">
+                    <img src="icons/icon_3.png" alt="icon_3">
+                    <p>Обучение онлайн:<br>через zoom</p>
+                </div>
+                <div class="icon_element">
+                    <img src="icons/icon_4.png" alt="icon_4">
+                    <p>Telegram-чат группы<br>с поддержкой от преподавателя</p>
+                </div>
+                <div class="icon_element">
+                    <img src="icons/icon_5.png" alt="icon_5">
+                    <p>Разумное сочетание<br>устной практики и теории</p>
+                </div>
+                <div class="icon_element">
+                    <img src="icons/icon_6.png" alt="icon_6">
+                    <p>Онлайн-сертификат<br>о прохождении курса</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="description" id="head1">
+        <div class="container">
+            <div class="description_wrapper">
+                <div class="part">
+                    <img src="img/img_town.jpg" alt="img_town">
+                </div>
+                <div class="part">
+                    <h2>О КУРСЕ</h2>
+                    <p>Этот курс разработан для тех, кто хочет повысить коммуникативные навыки на испанском языке,
+                        необходимые в мире деловых отношений и международных связей.
+                        Наши профессиональные преподаватели помогут научиться выражать свои идеи, вести переговоры и
+                        успешно взаимодействовать с испаноязычными партнерами и клиентами.
+                        <br><br>
+
+                        Мы фокусируемся на практическом применении языка в бизнес-среде. Наш прогрессивный подход к
+                        обучению включает интерактивные уроки, ролевые игры, коммуникативные упражнения и практические
+                        задания, которые помогут вам уверенно применять новые знания и навыки в реальных ситуациях.
+                        <br><br>Развивайте свою карьеру, расширяя возможности и обогащая культурный опыт с помощью курса
+                        испанского языка для бизнеса!
+                    </p>
+                </div>
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p>Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+
+    <section class="for">
+        <div class="container">
+            <h2>EE</h2>
+            <h3 class="h3_d">ДЛЯ КОГО?</h3>
+            <div class="elements_wrapper">
+                <div class="element">
+                    <h4>Студентам</h4>
+                    <p>Для студентов, обучающихся на факультетах с углубленным изучением иностранных языков и
+                        международных отношений, межкультурных коммуникаций.</p>
+                </div>
+                <div class="element">
+                    <h4>Предпринимателям</h4>
+                    <p>Для бизнесменов и предприимчивых людей, ведущих, либо планирующих открыть своё дело на территории
+                        испаноязычной страны, либо в тесной связке с испаноязычными партнёрами.</p>
+                </div>
+                <div class="element">
+                    <h4>IT-специалистам
+                    </h4>
+                    <p>Участникам разработки проектов, предназначенных на испаноязычный рынок, либо планирующим
+                        релокацию или сезонный переезд в соответствующие страны.
+                    </p>
+                </div>
+                <div class="element">
+                    <h4>Релокантам
+                    </h4>
+                    <p>Людям, переезжающим в испаноязычную страну навсегда и нуждающимся в оперативной интеграции в
+                        местный рынок труда и гражданское общество.
+                    </p>
+                </div>
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="courses">
+        <div class="container">
+            <h3 class="h3_d">ВЫ ИЗУЧИТЕ</h3>
+            <div class="img_wrapper">
+                <div class="element">
+                    <div class="prov"><img src="img/img_1.jpg" alt="img_1"></div>
+                    <p>Деловую коммуникацию</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_2.jpg" alt="img_2"></div>
+                    <p>Запуск бизнеса и приём на работу</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_3.jpg" alt="img_3"></div>
+                    <p>Маркетинг и продвижение</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_4.jpg" alt="img_4"></div>
+                    <p>IT и стартапы</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_5.jpg" alt="img_5"></div>
+                    <p>Дизайн и эстетику</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_6.jpg" alt="img_6"></div>
+                    <p>Государственные органы и налоги</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_7.jpg" alt="img_7"></div>
+                    <p>Особенности культуры</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_8.jpg" alt="img_8"></div>
+                    <p>Отдых в отпуске и хобби</p>
+                </div>
+                <div class="element">
+                    <div class="prov"><img src="img/img_9.jpg" alt="img_9"></div>
+                    <p>Географию испаноязычного мира</p>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="element">
+                            <div class="prov"><img src="img/img_1.jpg" alt="img_1"></div>
+                            <p>Деловую коммуникацию</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="element">
+                            <div class="prov"><img src="img/img_2.jpg" alt="img_2"></div>
+                            <p>Запуск бизнеса и приём на работу</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="element">
+                            <div class="prov"><img src="img/img_3.jpg" alt="img_3"></div>
+                            <p>Маркетинг и продвижение</p>
+                        </div>
+                    </div>
+                    <div class='swiper-slide'>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_4.jpg" alt="img_4"></div>
+                            <p>IT и стартапы</p>
+                        </div>
+                    </div>
+                    <div class='swiper-slide'>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_5.jpg" alt="img_5"></div>
+                            <p>Дизайн и эстетику</p>
+                        </div>
+                    </div>
+                    <div class='swiper-slide'>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_6.jpg" alt="img_6"></div>
+                            <p>Государственные органы и налоги</p>
+                        </div>
+                    </div>
+                    <div class='swiper-slide'>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_7.jpg" alt="img_7"></div>
+                            <p>Особенности культуры</p>
+                        </div>
+                    </div>
+                    <div class='swiper-slide'>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_8.jpg" alt="img_8"></div>
+                            <p>Отдых в отпуске и хобби</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="element">
+                            <div class="prov"><img src="img/img_9.jpg" alt="img_9"></div>
+                            <p>Географию испаноязычного мира</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            <script src="js/swiper.js"></script>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+
+    <section class="programs" id="head2">
+        <div class="container">
+            <h2 class="h2_g">EE</h2>
+            <h3>Программа курса</h3>
+            <div class="elements_wrapper">
+                <div class="element">
+                    <div class="desc">
+                        <h4>Деловая коммуникация
+                        </h4>
+                        <h5>1</h5>
+                    </div>
+                    <h5 class="h5_new">1</h5>
+                    <img src="img/коммуник.jpg" alt="img_10">
+                    <p>Определение целей и ожиданий. Представление бизнес-контекстов, в которых используется испанский
+                        язык. Умение задавать вопросы и отвечать на них: использование вопросительных слов, формулировка
+                        и отработка типичных вопросов в бизнес-сфере. Знакомство на собеседовании: рассказ о себе и
+                        своей биографии. Организация встреч и переговоров. Электронная переписка: email и мессенджеры.
+                        Деловой этикет: правила хорошего тона на бизнес-встречах. </p>
+                </div>
+                <div class="divider"></div>
+                <div class="element">
+                    <div class="desc">
+                        <h4>Работа в компании</h4>
+                        <h5>2</h5>
+                    </div>
+                    <h5 class="h5_new">2</h5>
+                    <img src="img/работа в компании.jpg" alt="img_11">
+                    <p>Организационная структура компании: отделы, должности, обязанности. Корпоративная культура и её
+                        особенности в испанских компаниях. Корпоративы и неформальное общение с коллегами. Описание и
+                        планирование проектов, ведение документации, отчетность, сроки. Офисная жизнь. Организация
+                        тренингов и обучения. Требования к персоналу, поиск сотрудников, составление вакансии. </p>
+                </div>
+                <div class="divider"></div>
+                <div class="element">
+                    <div class="desc">
+                        <h4>Маркетинг, PR, реклама, дизайн и IT</h4>
+                        <h5>3</h5>
+                    </div>
+                    <h5 class="h5_new">3</h5>
+                    <img src="img/маркетинг.jpg" alt="img_12">
+                    <p>Умение описывать продукты и услуги: составление описаний, презентация, обсуждение преимуществ и
+                        характеристик товаров/услуг. Интернет-маркетинг и интернет-торговля. Графический и веб-дизайн.
+                        Заполнение брифа и постановка ТЗ. Социальные сети: общение, продвижение. Испаноязычные блогеры.
+                        Наружная и видеореклама. Всемирно известные бренды из испаноязычных стран.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="element">
+                    <div class="desc">
+                        <h4> Финансы и бухгалтерия</h4>
+                        <h5>4</h5>
+                    </div>
+                    <h5 class="h5_new">4</h5>
+                    <img src="img/бух.jpg" alt="img_12">
+                    <p>Формы собственности компаний. Открытие бизнеса и стартапы. Бухгалтерский учёт и налоги.
+                        Финансовая грамотность и банки. Органы государственного управления внутри страны. Международные
+                        отношения: ВЭД, ЕС, международные политические и экономические организации.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="element">
+                    <div class="desc">
+                        <h4>Культура, история и туризм</h4>
+                        <h5>5</h5>
+                    </div>
+                    <h5 class="h5_new">5</h5>
+                    <img src="img/культура.jpg" alt="img_12">
+                    <p>Исторические и культурные особенности испаноязычного мира: Испания, Латинская Америка. Туризм и
+                        особенности испаноязычных регионов для ведения бизнеса и отдыха. Особенности испанских регионов
+                        Кастилия, Каталония, Андалусия, Страна Басков, Канарские и балеарские острова.</p>
+                </div>
+            </div>
+            <h5 class="h5_DD"><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="gramatic">
+        <div class="container">
+            <h2 class="h2_g">EE</h2>
+            <h3 class="gramatic-title">
+                Грамматика
+            </h3>
+            <p class="gramatic-desc">
+                Знакомство с испанским языком: алфавит, произношение, правила ударения. Местоимения. Вопросительные
+                предложения. Определённый артикль. Неопределённый артикль. Числительные.<br>
+                <br>
+
+                Существительные мужского рода. Существительные женского рода. Образование множественного числа.
+                <br>
+                <br>
+                Прилагательные. Типы прилагательных и особенности их образования. Образование множественного числа
+                прилагательных. Степени сравнения прилагательных.
+                <br>
+                <br>
+                Время года, календарь, сутки, часы и минуты.
+                <br>
+                <br>
+                Глаголы: классификация, инфинитив. Настоящее время. Глаголы ser и estar. Безличная форма hay и глагол
+                tener.
+                Глаголы gustar и querer. Глаголы conocer и saber. Простое прошедшее время. Незаконченное прошедшее
+                время.
+                Сложное прошедшее время. Предпрошедшее время и Законченное прошедшее время. Простое будущее время.
+                Сложное
+                будущее время.
+                <br>
+                <br>
+                Междометия и пунктуация.
+            </p>
+            <p class="gramatic-start">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="obu" id="head3">
+        <div class="container">
+            <h3 class="h3_d">Обучение</h3>
+            <div class="elem">
+                <img src="img/coworking-students-with-gadget-and-notepads 1.jpg" alt="" class="desct">
+                <img src="img/coworking-students-with-gadget-and-notepads 2.jpg" alt="" class="mob">
+                <div class="part">
+                    <div class="text">
+                        <h4>01</h4>
+                        <p>Вам предоставят авторский электронный учебник-конспект, оформленный в яркую
+                            и понятную презентацию.</p>
+                    </div>
+                    <div class="text">
+                        <h4>02</h4>
+                        <p>Регулярное использование видеоматериалов и других инструментов сделает обучение ярким и
+                            незабываемым путешествием.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="elem">
+                <img src="img/group-of-young-students-in-front-of-school-building 2.jpg" alt="" class="mob">
+                <div class="part">
+                    <div class="text">
+                        <h4>03</h4>
+                        <p>Упор на реальное общение и максимум практики принесут реальную пользу вашим коммуникационным
+                            навыкам.</p>
+                    </div>
+                    <div class="text">
+                        <h4>04</h4>
+                        <p>Не скучные и увлекательные домашние задания будут держать вас в тонусе на протяжении всего
+                            периода обучения.</p>
+                    </div>
+                </div>
+                <img src="img/group-of-young-students-in-front-of-school-building 1.png" alt="" class="desct">
+            </div>
+            <div class="elem">
+                <img src="img/low-angle-graduated-students 2.jpg" alt="" class="mob">
+                <img src="img/low-angle-graduated-students 1.jpg" alt="" class="desct">
+                <div class="part">
+                    <div class="text">
+                        <h4>05</h4>
+                        <p>Учебный чат группы поможет оперативно получать помощь и полезную информацию не только от
+                            однокурсников, но и преподавателя.</p>
+                    </div>
+                    <div class="text">
+                        <h4>06</h4>
+                        <p>Обучение завершится обобщающим занятием-экзаменом, на котором вы подтвердите знания и
+                            получите сертификат о прохождении курса.</p>
+                    </div>
+                </div>
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+
+    <section class="prep">
+        <div class="container">
+            <h3 class="h3_d">Преподаватели</h3>
+            <div class="wra">
+                <div class="elem">
+                    <img src="img/vertical-shot-of-beautiful-smiling-woman-outdoors 1.jpg" alt="">
+                    <h2>Ксения</h2>
+                    <p>опыт преподавания 8 лет</p>
+                </div>
+                <div class="elem">
+                    <img src="img/young-handsome-man-posing 1.jpg" alt="">
+                    <h2>Андрей</h2>
+                    <p>опыт преподавания 6 лет</p>
+                </div>
+                <div class="elem">
+                    <img src="img/a-portrait-of-an-expressive-woman 1.jpg" alt="">
+                    <h2>Светлана</h2>
+                    <p>опыт преподавания 20 лет</p>
+                </div>
+                <div class="elem">
+                    <img src="img/smiley-woman-holding-a-cup-of-coffee-while-sitting-on-a-bench 1.png" alt="">
+                    <h2>Валентина</h2>
+                    <p>опыт преподавания 16 лет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="result">
+        <div class="container">
+            <h3 class="h3_d">Что станет результатом</h3>
+            <div class="information_wrapper">
+                <div class="part">
+                    <div class="element">
+                        <img src="img/Arrow 3.png" alt="">
+                        <p><span>Повышение коммуникативных навыков:</span> Испанский язык является одним из наиболее
+                            распространенных языков международного делового общения. Участвуя в курсе, русскоговорящие
+                            учащиеся могут значительно улучшить свои коммуникативные навыки на испанском языке, что
+                            поможет им эффективно общаться с испаноязычными коллегами, партнерами и клиентами.</p>
+                    </div>
+                    <div class="element">
+                        <img src="img/Arrow 3.png" alt="">
+                        <p><span>Расширение деловых возможностей:</span> Испанский язык открывает двери к новым рынкам и
+                            возможностям для бизнеса. Русскоговорящие учащиеся, овладевающие испанским языком для
+                            бизнеса, могут успешно проникнуть на испаноязычные рынки и установить контакты с
+                            потенциальными клиентами и партнерами. Это может привести к расширению бизнеса и увеличению
+                            прибыли.</p>
+                    </div>
+                    <div class="element">
+                        <img src="img/Arrow 3.png" alt="">
+                        <p><span>Улучшение межкультурной коммуникации: </span>Испаноязычные страны имеют свои уникальные
+                            бизнес-культуры и особенности. Прохождение курса испанского языка для бизнеса поможет
+                            русскоговорящим учащимся понять и адаптироваться к испанской деловой культуре, что сделает
+                            их коммуникацию более эффективной и успешной с партнерами из этих стран.</p>
+                    </div>
+                    <div class="element">
+                        <img src="img/Arrow 3.png" alt="">
+                        <p><span>Повышение конкурентоспособности на рынке труда:</span> Знание испанского языка для
+                            бизнеса становится все более ценным навыком на рынке труда. Русскоговорящие учащиеся,
+                            владеющие этим навыком, могут стать более привлекательными для работодателей, увеличивая
+                            свои шансы на получение вакансии или продвижение на работе.</p>
+                    </div>
+                    <div class="element">
+                        <img src="img/Arrow 3.png" alt="">
+                        <p><span>Улучшение профессионального развития: </span> Приобретение навыков испанского языка для
+                            бизнеса позволяет учащимся расширить свои профессиональные знания и возможности. Они могут
+                            получить доступ к специализированным ресурсам, международным конференциям и семинарам, а
+                            также развивать свои карьерные перспективы в международной среде.</p>
+                    </div>
+                </div>
+                <div class="right_part">
+                    <img src="img/8250577 1.jpg" alt="heart">
+                    <img src="img/heart.jpg" alt="heart">
+                </div>
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+            <h2 class="h2_g">EE</h2>
+        </div>
+    </section>
+    <section class="sert">
+        <div class="container">
+            <h3 class="gramatic-title">
+                Сертификат
+            </h3>
+            <div class="sert-wrapper">
+                <div>
+                    <p class="gramatic-desc">
+                        Выпускникам курса Испанский язык для бизнеса выдаётся (отправляется на email) пронумерованный
+                        сертификат на русском, английскои и испанском языках.<br>
+                        <br>
+
+                        Для получения сертификата необходимо выполнить условия прохождения программы и успешно сдать
+                        выпускной экзамен.
+
+                    </p>
+                    <p class="gramatic-start">Старт по мере набора групп</p>
+                    <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+                </div>
+                <img src="img/sert.png">
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <h3 class="h3_d">Узнайте больше!</h3>
+            <div class="wrapper">
+                <iframe width="360" height="240" src="https://www.youtube.com/embed/YGAsG6_JgAI?si=6oTXqpSr80cbvouf"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="360" height="240" src="https://www.youtube.com/embed/Fe7nhVtjVDY?si=Mv0qGHMtZ33fOgZH"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <p>Каждый из нас понимает очевидную вещь: граница обучения кадров требует определения и уточнения
+                экономической целесообразности принимаемых решений. Приятно, граждане, наблюдать, как независимые
+                государства набирают популярность среди определенных слоев населения, а значит.
+            </p>
+
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+
+
+
+    <section class="rew">
+        <div class="container">
+            <h3 class="h3_d">Отзывы студентов :)</h3>
+            <div class="element">
+                <img src="img/medium-shot-smiley-woman-taking-selfie-outdoors.jpg" alt="">
+                <p>Курс испанского языка для бизнеса превзошел все мои ожидания. Преподаватели были профессиональными и
+                    знающими специфику моей профессии. Я получила не только навыки языка, но и практическую грамотность
+                    в деловых переговорах. Очень благодарна за этот курс!<br><br><br><span>ТАТЬЯНА, 26 ЛЕТ
+                        (юрист)</span></p>
+            </div>
+            <div class="element">
+                <img src="img/portrait-of-man-standing-in-amusement-park-looking-at-camera 1.jpg" alt="" class="mob">
+                <p>Курс испанского языка для бизнеса был отличным опытом. Я обучался онлайн, что позволяло мне гибко
+                    управлять своим временем. Мои преподаватели были толковыми и помогали мне освоить техническую
+                    терминологию на испанском языке. Теперь я могу эффективно общаться с испаноязычными
+                    коллегами.<br><br><br><span>Дима, 35 ЛЕТ (разработчик)</span></p>
+                <img src="img/portrait-of-man-standing-in-amusement-park-looking-at-camera 1.jpg" alt="" class="desct">
+            </div>
+            <div class="element">
+                <img src="img/charming-girl-with-short-hairstyle-in-beige-denim-jacket-smile-sincerely-in-city-positive-woman-with-brunette-hair-in-light-clothes-posing-at-street.jpg"
+                    alt="">
+                <p>Учебный курс испанского языка для бизнеса был прекрасным опытом для меня. Я не только освоила общение
+                    на испанском языке в рамках бизнес-среды, но также расширила свой кругозор и узнала больше о
+                    испанской культуре. Преподаватели были терпеливыми и дружелюбными<br><br><br><span>Марина, 30 ЛЕТ
+                        (дизайнер)</span></p>
+            </div>
+            <div class="element">
+                <img src="img/beautiful-woman-posing-in-autumn-coat-posing-in-the-street 1.jpg" alt="" class="mob">
+                <p>Я решила изучить испанский язык для бизнеса, чтобы расширить свои возможности в своей компании. Курс
+                    оказался очень полезным и практичным. Я научилась составлять бизнес-письма, вести успешные
+                    переговоры и представлять свою компанию на международном уровне. Рекомендую этот курс всем
+                    предпринимателям!<br><br><br><span>Анна, 40 ЛЕТ (предприниматель)</span></p>
+                <img src="img/beautiful-woman-posing-in-autumn-coat-posing-in-the-street 1.jpg" alt="" class="desct">
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="ques">
+        <div class="container">
+            <h2 class="h2_g">EE</h2>
+            <h3 class="h3_d">Вопросы о курсе</h3>
+            <div class="wrapper">
+                <div class="element">
+                    <h4>Какие уровни испанского языка покрывает курс?</h4>
+                    <p>Курс покрывает различные уровни владения испанским языком, от начального до продвинутого. Наши
+                        преподаватели оценят ваши текущие знания, чтобы определить подходящий уровень курса.</p>
+                </div>
+                <div class="element">
+                    <h4>Какие темы включены в курс испанского языка  для бизнеса?</h4>
+                    <p>Курс включает такие темы, как деловое общение, переговоры, письма и электронная почта,
+                        презентации, телефонные разговоры, маркетинг и реклама, финансы и бухгалтерия, управление
+                        персоналом, культурное понимание и этикет.</p>
+                </div>
+                <div class="element">
+                    <h4>Могу ли я получить сертификат или подтверждение окончания курса?</h4>
+                    <p>Да, после успешного окончания курса вы получите сертификат о его прохождении. Сертификат будет
+                        подтверждать ваши достижения и показывать уровень владения испанским языком для бизнеса.</p>
+                </div>
+                <div class="element">
+                    <h4>Какой формат занятий используется в курсе?</h4>
+                    <p>Занятия проводятся онлайн через платформу Zoom. Это позволяет ученикам учиться из любого места,
+                        где есть доступ к интернету, и общаться с преподавателем и другими учениками в режиме реального
+                        времени.
+                    </p>
+                </div>
+                <div class="element">
+                    <h4>Могу ли я выбрать расписание занятий, которое мне удобно?</h4>
+                    <p>Мы стараемся быть гибкими и предлагаем различные варианты расписания занятий. При регистрации на
+                        курс вы сможете выбрать удобные дни и временные интервалы на основе доступности наших
+                        преподавателей.</p>
+                </div>
+                <div class="element">
+                    <h4>Какие дополнительные ресурсы доступны на курсе?</h4>
+                    <p>Вместе с уроками, вы получите доступ к дополнительным материалам, таким как учебники, упражнения,
+                        аудио- и видео-материалы, а также онлайн-ресурсы, которые помогут вам закрепить изучаемый
+                        материал и развить навыки на практике.</p>
+                </div>
+            </div>
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="pay" id="head4">
+        <div class="container">
+            <h3>Стоимость и оплата</h3>
+            <div class="wrapper">
+                <div class="left_part">
+                    
+                       <p> <span>3</span> месяца</p><p><span>36</span> занятий x <span>1.5</span>
+                        часа</p><p><span>3</span> раза в неделю</p><p><span>онлайн</span> формат</p>
+                
+                </div>
+                <div class="right_part">
+                    <p>
+                        Для записи на курс необходимо связаться с нами через форму по кнопке “Оставить заявку”, по
+                        контактным телефонам и электронной почте (контакты указаны на сайте). После записи вы сможете
+                        воспользоваться кнопкой “Оплатить”, размещённой на сайте, для оплаты 1 (одного) месяца занятий.
+                        Кликнув на кнопку, вы перейдете на специальную защищенную платежную страницу процессинговой
+                        системы WebPay. Для оплаты вам необходимо ввести свои карточные данные и подтвердить платеж,
+                        нажав кнопку «Оплатить». Ваша оплата отобразиться у нас и вы станете участником обучающего курса
+                        на 1 (один) месяц.<br><br>
+
+                        Безопасный сервер WEBPAY устанавливает шифрованное соединение по защищенному протоколу TLS и
+                        конфиденциально принимает от клиента данные его платёжной карты (номер карты, имя держателя,
+                        дату окончания действия, и контрольный номер банковской карточке CVC/CVC2).<br><br>
+
+                        После совершения оплаты с использованием банковской карты необходимо сохранять полученные
+                        карт-чеки (подтверждения об оплате) для сверки с выпиской из карт-счёта (с целью подтверждения
+                        совершённых операций в случае возникновения спорных ситуаций).<br><br>
+
+                        Оплата через ЕРИП<br><br>
+
+                        Оплату Вы можете произвести в любом банке: интернет-банкинге, мобильном банкинге, инфокиоске,
+                        банкомате, кассе и т.д.
+                        Совершить оплату можно с использованием: наличных денежных средств, любых электронных денег,
+                        банковских платежных карточек<br><br>
+
+                        ДЛЯ ПРОВЕДЕНИЯ ПЛАТЕЖА НЕОБХОДИМО:
+                        Выбрать путь Пункт “Система “Расчет” (ЕРИП) - Интернет-магазины/сервисы - A-Z Латинские домены -
+                        E - Espanolexitoso.by
+                        1. Для оплаты «Товара»/ «Услуги» ввести Номер заказа
+                        2. Ввести сумму платежа (если не указана)
+                        3. Проверить корректность информации
+                        4. Совершить платеж.
+                        Если Вы осуществляете платеж в кассе банка, пожалуйста, сообщите кассиру о необходимости
+                        проведения платежа через систему ”Расчет“ (ЕРИП).<br><br>
+
+                        В случае, если Вы не получили заказ (не оказана услуга), Вам необходимо обратиться (в службу
+                        технической поддержки) по телефону +375 44 510 61 71 или e-mail espanolexitoso@gmail.com.
+                        Менеджеры Вас проконсультируют.<br><br>
+
+                        При оплате банковской платежной картой возврат денежных средств осуществляется на карточку, с
+                        которой была произведена оплата.<br><br>
+
+                        Отказаться от уже оплаченного обучения без удержания денежных средств за фактически оказанные
+                        услуги возможно не позднее начала второго занятия оплаченного месяца. В остальных случаях
+                        денежные средства возвращаются за вычетом фактически оказанных услуг, включая и первое занятия.
+
+                    </p>
+                </div>
+            </div>
+            <img class="banks" src="icons/МПС+Мир+ЕРИП.svg">
+            <h5><span>240</span> 190 BYN/ месяц</h5>
+            <p class="p_d">Старт по мере набора групп</p>
+            <button class="btn btn1"><a href="javascript:PopUpShow()">Оставить заявку</a></button>
+        </div>
+    </section>
+    <section class="about" id="head5">
+        <div class="container">
+            <div class="wrapper">
+                <div class="part">
+                    <h3>О школе</h3>
+                    <h4>E<span>E</span></h4>
+                </div>
+                <div class="part">
+                    <p>Школа испанского языка Español Exitoso - современный международный цифровой проект. Наша главная
+                        задача - объединять мир через изучение испанского языка.
+                        Большое внимание мы уделяем тематическому изучению языка: под конкретные задачи студентов со
+                        схожими жизненными целями.<br><br>
+                        Курс “Испанский для бизнеса” стал флагманским направлением школы и рассчитан на людей с разным
+                        уровнем владения языком, но с единой целью - интегрироваться в деловую среду испаноязычного
+                        мира. Опытные преподаватели, работая в небольших группах и тесной связке со студентами, не
+                        только помогут изучить основные разделы разговорного испанского языка, но и помогут узнать об
+                        особенностях работы и ведения бизнеса в Испании и странах Латинской Америки.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="images">
+        <img src="img/t1yzaoh0427677 1.jpg" alt="">
+        <img src="img/the-crossing-calle-de-alcala-and-gran-via-in-night 1.jpg" alt="" class="desct">
+        <img src="img/the-crossing-calle-de-alcala-and-gran-via-in-night 2.jpg" alt="" class="mob">
+        <div><img src="img/beautiful-shot-of-a-balcony-of-the-cullera-beach-in-valencia-spain 1.jpg" alt="">
+            <img src="img/residence-houses-in-el-toboso 1.jpg" class="bl" alt="">
+        </div>
+        <img src="img/aerial-shot-of-ronda-city-in-spain 1.jpg" alt="" class="desct">
+        <img src="img/aerial-shot-of-ronda-city-in-spain 2.jpg" alt="" class="mob">
+        <img src="img/Ispantsyi-----traditsii-obyichai-privyichki 1.jpg" alt="" class="desct">
+        <img src="img/Ispantsyi-----traditsii-obyichai-privyichki 2.jpg" alt="" class="mob">
+    </section>
+    <section class="form">
+        <div class="container">
+            <h3 class="h3_d">Обратная связь</h3>
+            <form action="">
+                <div class="input_cont">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder=" Еmail">
+                    <input type="text" placeholder="Ваш вопрос">
+                </div>
+                <button><a href="javascript:PopUpShow2()">Отправить</a></button>
+            </form>
+            <h2 class="h2_g">EE</h2>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <p>Индивидуальный предприниматель<br>Новиков Антон Игоревич<br>УНП 193578051
+                    <br>220037 Республика Беларусь<br>г. Минск, пер. Козлова 18-22
+                    <br>р/с BY70ALFA30132A49020010270000
+                    <br>в ЗАО "Альфа-Банк"<br>220013 г. Минск, ул. Сурганова 43-47<br>БИК: ALFABY2X
+                    <br>УНП 101541947, ОКПО 37526626.
+                    <br>+375 44 510 61 71<br>espanolexitoso@gmail.com
+                </p>
+                <div class="social_linkss desct">
+                    Espanol eXITOSO<br>
+                    <div class="s_l">
+                        <a href="https://t.me/espanolexitoso" class="w"><img src="icons/telegram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/espanolexitoso/" class="w"><img src="icons/instagram.svg"
+                                alt=""></a>
+                        <a href="https://www.tiktok.com/@espanolexitoso"><img src="icons/tiktok.svg" alt=""></a>
+                    </div>
+                    <p class="footer-desc">Режим работы: 9:00-21.00, ежедневно
+                    </p>
+                </div>
+                <div class="linkss">Договор оферты<br>
+                    Политика конфиденциальности</div>
+            </div>
+            <div class="social_linkss mob">
+                Espanol eXITOSO<br>
+                <div class="s_l">
+                    <a href=" https://t.me/espanolexitoso 
+                    " class="w"><img src="icons/telegram.svg" alt=""></a>
+                    <a href="https://www.instagram.com/espanolexitoso/
+                " class="w"><img src="icons/instagram.svg" alt=""></a>
+                    <a href="https://www.tiktok.com/@espanolexitoso "><img src="icons/tiktok.svg" alt=""></a>
+                </div>
+                <p class="footer-desc">Режим работы: 9:00-21.00, ежедневно
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+            <a href="javascript:PopUpHide()" class="crossss">x</a>
+            <h2>Получив заявку мы свяжемся с вами</h2>
+            <form action="">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Телефон">
+                <div class="contt">
+                    <select class="select">
+                        <option value="value1">Telegram</option>
+                        <option value="value2" selected>Viber</option>
+                        <option value="value3">WhatsApp</option>
+                    </select>
+                    <h3>Удобный мессенджер</h3>
+                </div>
+                <p>Отправляя заявку вы соглашаетесь
+                    на обработку персональных данных.</p>
+                <button><a href="javascript:PopUpShow2()">Отправить</a></button>
+            </form>
+        </div>
+    </div>
+    <div class="b-popup2" id="popup2">
+        <div class="b-popup-content">
+            <a href="javascript:PopUpHide2()" class="crossss">x</a>
+            <h2>Ваша заявка отправлена!
+                </р>
+        </div>
+    </div>
+</body>
+
+</html>

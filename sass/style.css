@@ -1,4 +1,28 @@
 @charset "UTF-8";
+main {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "Bitter";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-content span {
+  font-weight: 500;
+}
+
+main h2 {
+  margin-bottom: 26px;
+}
+
 .mob {
   display: none;
 }
@@ -189,12 +213,12 @@ body {
   background-image: url("../img/Rectangle500.png");
 }
 
-.right_part p {
+.gramatic-desc p {
   text-indent: 30px;
   position: relative;
 }
 
-.right_part p:before {
+.gramatic-desc p:before {
   position: absolute;
   width: 5px;
   top: -1px;
@@ -532,7 +556,7 @@ header .container .header__body .social_link a {
   margin-bottom: 47px;
 }
 .programs .element .desc {
-  width: 350px;
+  width: 360px;
 }
 .programs .element .desc h4 {
   font-family: "Bitter";
@@ -1193,7 +1217,8 @@ footer .wrapper {
   line-height: 24px;
   color: rgb(255, 255, 255);
 }
-footer .wrapper .linkss {
+footer .wrapper .linkss a {
+  color: rgb(255, 255, 255);
   font-weight: 500;
 }
 footer .wrapper .social_linkss {
@@ -1358,6 +1383,11 @@ footer .wrapper .social_linkss .s_l .w {
 }
 
 @media (max-width: 767px) {
+  main {
+    margin-top: 80px;
+    font-size: 15px;
+    line-height: 23px;
+  }
   .img_bg-wrapper {
     margin: 60px 0 0 0;
     padding: 190px 0 30px 30px;
@@ -1929,10 +1959,12 @@ footer .wrapper .social_linkss .s_l .w {
     margin-bottom: 100px;
   }
   .pay h3 {
-    font-size: 36px;
+    font-size: 30px;
+    margin-bottom: 40px;
   }
   .pay .wrapper {
     margin-bottom: 0px;
+    gap: 30px;
   }
   .pay .wrapper .left_part {
     flex-direction: column;
@@ -1942,9 +1974,9 @@ footer .wrapper .social_linkss .s_l .w {
     font-size: 24px;
   }
   .pay .wrapper .left_part p span {
-    font-size: 32px;
+    font-size: 26px;
   }
-  .pay .wrapper .right_part {
+  .pay .wrapper .right_part p {
     font-size: 15px;
   }
   .pay h5 {

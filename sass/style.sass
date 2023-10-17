@@ -1,4 +1,22 @@
-﻿.mob 
+﻿main 
+    margin-top: 100px
+    margin-bottom: 50px
+    font-family: "Bitter"
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    text-align: left
+
+.main-content 
+    display: flex
+    flex-direction: column
+    gap: 10px
+.main-content span 
+    font-weight: 500
+main h2 
+    margin-bottom: 26px
+
+.mob 
     display: none
 .swiper 
     display: none
@@ -138,10 +156,10 @@ body
     position: relative
     padding: 251px 0 60px 60px
     background-image: url("../img/Rectangle500.png")
-.right_part p 
+.gramatic-desc p 
     text-indent: 30px
     position: relative
-.right_part p:before 
+.gramatic-desc p:before 
     position: absolute
     width: 5px
     top: -1px
@@ -432,7 +450,7 @@ header
         justify-content: space-around
         margin-bottom: 47px
         .desc
-            width: 350px
+            width: 360px
             h4
                 font-family: "Bitter"
                 font-weight: 600
@@ -638,8 +656,11 @@ header
             width:100%
             flex-direction: row
             justify-content: space-around
+         .left_part p
+            font-size: 28px
         .right_part
             width: 100%
+        .right_part
     span
         font-weight: 600
         color: rgba(245, 198, 67, 1)
@@ -991,7 +1012,8 @@ footer
         font-size: 14px
         line-height: 24px
         color: rgba(255, 255, 255, 1)
-        .linkss
+        .linkss a
+            color: rgba(255, 255, 255, 1)
             font-weight: 500
         .social_linkss
             font-family: "Black Ops One"
@@ -1132,6 +1154,10 @@ footer
 
 
 @media(max-width: 767px)
+    main 
+        margin-top: 80px
+        font-size: 15px
+        line-height: 23px
     .img_bg-wrapper
         margin: 60px 0 0 0
         padding: 190px 0 30px 30px
@@ -1597,9 +1623,11 @@ footer
             margin-bottom: 100px
     .pay
         h3
-            font-size: 36px
+            font-size: 30px
+            margin-bottom: 40px
         .wrapper
             margin-bottom: 0px
+            gap: 30px
           
             .left_part
                 flex-direction: column
@@ -1607,8 +1635,8 @@ footer
                 p
                     font-size: 24px
                     span
-                        font-size: 32px
-            .right_part
+                        font-size: 26px
+            .right_part p
 
                 font-size: 15px
                 
